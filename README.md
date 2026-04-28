@@ -5,7 +5,10 @@ https://www.udemy.com/course/sistema-de-inventario-y-ventas-con-laravel/?couponC
 Para la parte del backend:
 
     composer install
+
+    Crea archivo .env:  
     copy .env.example .env
+    
     php artisan key:generate
     
     Configurar la base de datos:
@@ -24,6 +27,15 @@ Para la parte del backend:
 
 Para la parte del frontend:
 
-npm i
-npm run dev
+    npm i
+    npm run dev
+
+
+git init
+git remote add origin [url_del_repositorio]
+git checkout -b [rama_apellido]
+git add .
+git commit -m "[mensaje]"
+git push origin [rama_apellido]
+
 
