@@ -30,16 +30,17 @@ Para la parte del frontend:
     npm i
     npm run dev
 
+Crear rama en local y luego empujarla al repositorio:
 
-git init<br/>
-git remote add origin [url_del_repositorio]<br/>
-git checkout -b [rama_apellido]<br/>
-git add .<br/>
-git commit -m "[mensaje]"<br/>
-git push origin [rama_apellido]<br/>
+    git init
+    git remote add origin [url_del_repositorio]
+    git checkout -b [rama_apellido]
+    git add .
+    git commit -m "[mensaje]"
+    git push origin [rama_apellido]
 
 Traer actualizaciones de la rama master:
 
     git fetch origin
-    git merge master
+    git merge origin/master
 
