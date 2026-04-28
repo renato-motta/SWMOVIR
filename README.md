@@ -31,11 +31,11 @@ Para la parte del frontend:
     npm run dev
 
 
-git init
-git remote add origin [url_del_repositorio]
-git checkout -b [rama_apellido]
-git add .
-git commit -m "[mensaje]"
-git push origin [rama_apellido]
+git init<br/>
+git remote add origin [url_del_repositorio]<br/>
+git checkout -b [rama_apellido]<br/>
+git add .<br/>
+git commit -m "[mensaje]"<br/>
+git push origin [rama_apellido]<br/>
 
 
