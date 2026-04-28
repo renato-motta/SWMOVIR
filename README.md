@@ -1,4 +1,4 @@
-<p>Proyecto inspirado en el siguiente curso de Udemy:</p>
+<p>Proyecto basado en el siguiente curso de Udemy:</p>
 
 https://www.udemy.com/course/sistema-de-inventario-y-ventas-con-laravel/?couponCode=MT260428G3
 
@@ -38,4 +38,8 @@ git add .<br/>
 git commit -m "[mensaje]"<br/>
 git push origin [rama_apellido]<br/>
 
+Traer actualizaciones de la rama master:
+
+    git fetch origin
+    git merge master
 
