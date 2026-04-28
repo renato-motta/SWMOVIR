@@ -11,7 +11,7 @@ Para la parte del backend:
     
     php artisan key:generate
     
-    Configurar la base de datos:
+    Configurar la base de datos -ver archivo .env.example-:
     
     DB_DATABASE=nombre_bd
     DB_USERNAME=root
